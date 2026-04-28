@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="16" fill="#00598A"/>
+  <rect x="25" y="25" width="30" height="25" rx="3" fill="white"/>
+  <rect x="28" y="28" width="11" height="10" rx="1" fill="#00598A"/>
+  <rect x="41" y="28" width="11" height="10" rx="1" fill="#00598A"/>
+  <circle cx="32" cy="48" r="2.5" fill="#00598A"/>
+  <circle cx="48" cy="48" r="2.5" fill="#00598A"/>
+  <path d="M22 52H58L56 56H24L22 52Z" fill="white"/>
+  <rect x="38" y="41" width="4" height="7" fill="#00598A"/>
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">RAILWAY</text>
+</svg>

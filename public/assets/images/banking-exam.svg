@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bankingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00598A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0077B6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bank Building -->
+  <g transform="translate(100, 80)">
+    <!-- Pillars -->
+    <rect x="-40" y="0" width="10" height="50" fill="url(#bankingGrad)"/>
+    <rect x="-15" y="0" width="10" height="50" fill="url(#bankingGrad)"/>
+    <rect x="10" y="0" width="10" height="50" fill="url(#bankingGrad)"/>
+    <rect x="35" y="0" width="10" height="50" fill="url(#bankingGrad)"/>
+    
+    <!-- Base -->
+    <rect x="-50" y="50" width="105" height="8" fill="url(#bankingGrad)"/>
+    
+    <!-- Roof -->
+    <path d="M -55 0 L 0 -25 L 60 0 Z" fill="url(#bankingGrad)"/>
+    
+    <!-- Rupee Symbol -->
+    <g transform="translate(0, 25)">
+      <text x="0" y="0" font-size="24" font-weight="bold" fill="#FFD700" text-anchor="middle">₹</text>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="155" font-size="20" font-weight="bold" fill="#00598A" text-anchor="middle" font-family="Arial, sans-serif">BANKING</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="16" fill="#00598A"/>
+  <path d="M40 20L55 28V32H25V28L40 20Z" fill="white"/>
+  <rect x="28" y="34" width="4" height="18" fill="white"/>
+  <rect x="35" y="34" width="4" height="18" fill="white"/>
+  <rect x="42" y="34" width="4" height="18" fill="white"/>
+  <rect x="49" y="34" width="4" height="18" fill="white"/>
+  <rect x="25" y="54" width="30" height="4" fill="white"/>
+  <path d="M40 42C41.6569 42 43 40.6569 43 39C43 37.3431 41.6569 36 40 36C38.3431 36 37 37.3431 37 39C37 40.6569 38.3431 42 40 42Z" fill="#FFD700"/>
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">BANKING</text>
+</svg>
