@@ -84,13 +84,9 @@ const Footer = () => {
             className="lg:col-span-2"
           >
             <div className="flex items-center mb-6">
-              <Image
-                src="/assets/Online Kaksha (Website Logo).png"
-                alt="Online Kaksha"
-                width={180}
-                height={64}
-                className="h-14 w-auto object-contain brightness-0 invert"
-              />
+              <span className="text-3xl font-black tracking-tight bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-400 text-transparent bg-clip-text">
+                MO Exam
+              </span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               India's trusted platform for government exam preparation. Helping

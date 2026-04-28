@@ -64,8 +64,8 @@ const FoundersVision = () => {
           {/* Right: Focused Content */}
           <div className="space-y-6">
             <p className="text-slate-600 text-lg leading-relaxed italic">
-              "I started Online Kaksha with one goal: to ensure that no student
-              fails their dream exam just because they couldn't afford expensive
+              "I started MO Exam with one goal: to ensure that no student fails
+              their dream exam just because they couldn't afford expensive
               coaching."
             </p>
 
@@ -73,7 +73,7 @@ const FoundersVision = () => {
               <div className="h-px w-12 bg-orange-200" />
               <div>
                 <p className="font-bold text-slate-900">Ankush Dawra</p>
-                <p className="text-sm text-slate-500">Founder, Online Kaksha</p>
+                <p className="text-sm text-slate-500">Founder, MO Exam</p>
               </div>
             </div>
 
@@ -123,7 +123,7 @@ const FoundersVision = () => {
                 <div className="space-y-4 text-slate-600 leading-relaxed">
                   <p>
                     <strong className="text-slate-900 underline decoration-orange-200">
-                      Online Kaksha
+                      MO Exam
                     </strong>{" "}
                     is more than just a platform—it’s a movement to make
                     competitive exam prep accessible to everyone.

@@ -454,7 +454,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-lg text-slate-500 font-medium max-w-2xl mx-auto">
             Thousands of aspirants have achieved their dream government jobs
-            with Online Kaksha
+            with MO Exam
           </p>
         </motion.div>
 

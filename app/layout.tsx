@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
+const outfit = Outfit({
   weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Online Kaksha - Learn Without Limits",
+  title: "MO Exam - Learn Without Limits",
   description:
-    "Master new skills with expert-led courses. Join thousands of students learning at their own pace with Online Kaksha.",
+    "Master new skills with expert-led courses. Join thousands of students learning at their own pace with MO Exam.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className={`${poppins.className} min-h-full`}>{children}</body>
+      <body className={`${outfit.className} min-h-full`}>{children}</body>
     </html>
   );
 }

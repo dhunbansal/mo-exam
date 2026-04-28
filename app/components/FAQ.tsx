@@ -131,7 +131,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-base text-slate-600 max-w-2xl mx-auto">
-            Everything you need to know about Online Kaksha
+            Everything you need to know about MO Exam
           </p>
         </motion.div>
 

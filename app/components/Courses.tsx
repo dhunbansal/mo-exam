@@ -7,70 +7,173 @@ import {
   Users,
   Clock,
   TrendingUp,
+  BookOpen,
+  GraduationCap,
+  Briefcase,
+  Award,
+  Shield,
+  Building2,
+  School,
+  FlaskConical,
 } from "lucide-react";
-import Image from "next/image";
 
 const Courses = () => {
   const courses = [
     {
-      logo: "/assets/banking.png",
-      title: "Banking Exams",
+      icon: BookOpen,
+      iconColor: "text-sky-400",
+      iconBg: "bg-sky-400/10",
+      title: "CBSE Class 8th",
       description:
-        "Complete preparation for SBI PO, IBPS Clerk, RRB Officer with PYQs, Mock Tests & Video Classes",
-      students: "18,450",
-      duration: "Full Course",
-      rating: "4.9",
-      subjects: ["Quantitative Aptitude", "Reasoning", "English", "GK"],
-    },
-    {
-      logo: "/assets/ssc.png",
-      title: "SSC Exams",
-      description:
-        "SSC CGL, CHSL, MTS, CPO preparation with comprehensive study material and practice tests",
-      students: "24,320",
+        "Complete CBSE Class 8 preparation with chapter-wise notes, practice questions and mock tests for all subjects.",
+      students: "8,200",
       duration: "Full Course",
       rating: "4.8",
-      subjects: ["Mathematics", "Reasoning", "GK", "English"],
+      subjects: ["Mathematics", "Science", "English", "Social Science"],
     },
     {
-      logo: "/assets/railway.png",
-      title: "Railway Exams",
+      icon: BookOpen,
+      iconColor: "text-violet-400",
+      iconBg: "bg-violet-400/10",
+      title: "CBSE Class 9th",
       description:
-        "RRB NTPC, Group D, ALP, RPF complete course with latest pattern questions",
-      students: "16,890",
-      duration: "Full Course",
-      rating: "4.9",
-      subjects: ["Mathematics", "Reasoning", "GK", "Current Affairs"],
-    },
-    {
-      logo: "/assets/afcat.png",
-      title: "AFCAT Exam",
-      description:
-        "Air Force Common Admission Test preparation for Flying, Technical & Ground Duty",
-      students: "12,540",
+        "Build a strong foundation for Class 9 with NCERT-aligned content, PYQs and subject-wise quizzes.",
+      students: "9,450",
       duration: "Full Course",
       rating: "4.8",
-      subjects: ["Mathematics", "Reasoning", "GK", "English"],
+      subjects: ["Mathematics", "Science", "English", "Hindi"],
     },
     {
-      logo: "/assets/cds.png",
-      title: "CDS Exam",
+      icon: GraduationCap,
+      iconColor: "text-cyan-400",
+      iconBg: "bg-cyan-400/10",
+      title: "CBSE Class 10th",
       description:
-        "Combined Defence Services preparation for Indian Army, Navy & Air Force",
-      students: "14,670",
+        "Ace your Board Exams with our complete Class 10 course — sample papers, chapter tests & expert guidance.",
+      students: "21,600",
       duration: "Full Course",
       rating: "4.9",
-      subjects: ["Mathematics", "English", "GK"],
+      subjects: ["Mathematics", "Science", "English", "Social Science"],
     },
     {
-      logo: "/assets/banking.png",
-      title: "All Exams Bundle",
+      icon: FlaskConical,
+      iconColor: "text-emerald-400",
+      iconBg: "bg-emerald-400/10",
+      title: "CBSE Class 11th",
       description:
-        "Complete access to all exam courses - Banking, SSC, Railway, AFCAT & CDS",
-      students: "21,230",
-      duration: "Lifetime Access",
+        "Transition smoothly to senior secondary with in-depth coverage of Science & Commerce streams.",
+      students: "11,300",
+      duration: "Full Course",
+      rating: "4.8",
+      subjects: ["Physics", "Chemistry", "Mathematics", "Biology"],
+    },
+    {
+      icon: GraduationCap,
+      iconColor: "text-indigo-400",
+      iconBg: "bg-indigo-400/10",
+      title: "CBSE Class 12th",
+      description:
+        "Comprehensive Board prep with previous year papers, revision notes and full-length mock tests.",
+      students: "19,800",
+      duration: "Full Course",
       rating: "4.9",
-      subjects: ["All Subjects Included"],
+      subjects: ["Physics", "Chemistry", "Mathematics", "Biology"],
+    },
+    {
+      icon: Briefcase,
+      iconColor: "text-orange-400",
+      iconBg: "bg-orange-400/10",
+      title: "OSSC Exams",
+      description:
+        "Odisha Staff Selection Commission exams preparation with Odia GK, Reasoning and quantitative sections.",
+      students: "14,700",
+      duration: "Full Course",
+      rating: "4.8",
+      subjects: ["Odia GK", "Reasoning", "Mathematics", "English"],
+    },
+    {
+      icon: Briefcase,
+      iconColor: "text-yellow-400",
+      iconBg: "bg-yellow-400/10",
+      title: "OSSSC Exams",
+      description:
+        "Odisha Subordinate Staff Selection Commission complete course with latest pattern and syllabus.",
+      students: "12,400",
+      duration: "Full Course",
+      rating: "4.8",
+      subjects: ["General Studies", "Reasoning", "Mathematics", "Odia"],
+    },
+    {
+      icon: Building2,
+      iconColor: "text-rose-400",
+      iconBg: "bg-rose-400/10",
+      title: "OPSC Exams",
+      description:
+        "Odisha Public Service Commission — OAS, OFS & other state service exams with comprehensive study material.",
+      students: "10,900",
+      duration: "Full Course",
+      rating: "4.9",
+      subjects: ["History", "Geography", "Polity", "Current Affairs"],
+    },
+    {
+      icon: Award,
+      iconColor: "text-teal-400",
+      iconBg: "bg-teal-400/10",
+      title: "OTET Exams",
+      description:
+        "Odisha Teacher Eligibility Test preparation for Paper I & Paper II with CDPs and subject content.",
+      students: "16,200",
+      duration: "Full Course",
+      rating: "4.9",
+      subjects: ["CDP", "Language I & II", "Mathematics", "EVS"],
+    },
+    {
+      icon: Award,
+      iconColor: "text-purple-400",
+      iconBg: "bg-purple-400/10",
+      title: "OSSTET Exams",
+      description:
+        "Odisha Secondary School Teacher Eligibility Test with subject-specific and pedagogy preparation.",
+      students: "9,800",
+      duration: "Full Course",
+      rating: "4.8",
+      subjects: ["Pedagogy", "Language", "Subject Content", "Reasoning"],
+    },
+    {
+      icon: Shield,
+      iconColor: "text-blue-400",
+      iconBg: "bg-blue-400/10",
+      title: "Police Exams",
+      description:
+        "Odisha Police SI, Constable & other police recruitment exams with physical & written test prep.",
+      students: "18,500",
+      duration: "Full Course",
+      rating: "4.9",
+      subjects: ["Odia GK", "Reasoning", "Mathematics", "General English"],
+    },
+    {
+      icon: School,
+      iconColor: "text-pink-400",
+      iconBg: "bg-pink-400/10",
+      title: "B.Ed Exams",
+      description:
+        "Bachelor of Education entrance exam preparation for Odisha universities with mock tests and notes.",
+      students: "7,600",
+      duration: "Full Course",
+      rating: "4.8",
+      subjects: ["Teaching Aptitude", "GK", "Reasoning", "English"],
+    },
+    {
+      icon: School,
+      iconColor: "text-lime-400",
+      iconBg: "bg-lime-400/10",
+      title: "Teaching Exams",
+      description:
+        "All Odisha teaching recruitment exams including CT, BEd, DEd and school teacher posts preparation.",
+      students: "13,400",
+      duration: "Full Course",
+      rating: "4.9",
+      subjects: ["Pedagogy", "Subject Content", "Odia", "GK"],
     },
   ];
 
@@ -94,7 +197,6 @@ const Courses = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* 🧠 Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full mb-6 backdrop-blur-md">
@@ -129,17 +231,12 @@ const Courses = () => {
               className="group"
             >
               <div className="h-full bg-white/5 backdrop-blur-xl border border-white/10 hover:border-white/20 rounded-2xl p-6 transition-all duration-500 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.5)]">
-
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
-                  <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center">
-                    <Image
-                      src={course.logo}
-                      alt={course.title}
-                      width={40}
-                      height={40}
-                      className="object-contain"
-                    />
+                  <div
+                    className={`w-14 h-14 ${course.iconBg} rounded-xl flex items-center justify-center`}
+                  >
+                    <course.icon className={`w-7 h-7 ${course.iconColor}`} />
                   </div>
 
                   <div className="flex items-center gap-1 text-slate-200 bg-white/10 px-3 py-1 rounded-lg text-sm">

@@ -68,13 +68,12 @@ const Features = () => {
       className="relative py-24 md:py-40 overflow-hidden bg-[#020617]"
     >
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-24">
           <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-md px-4 py-1.5 rounded-full mb-6 border border-white/10">
             <Zap className="w-4 h-4 text-cyan-400" />
             <span className="text-sm font-semibold text-slate-300 uppercase tracking-wider">
-              Why Online Kaksha
+              Why MO Exam
             </span>
           </div>
 
@@ -103,7 +102,6 @@ const Features = () => {
               className="group relative"
             >
               <div className="relative h-full rounded-[2rem] p-8 bg-white/5 backdrop-blur-xl border border-white/10 hover:border-white/20 transition-all duration-500 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.4)]">
-
                 {/* Icon */}
                 <div
                   className={`inline-flex items-center justify-center w-14 h-14 rounded-xl ${feature.lightColor} mb-6 group-hover:scale-110 transition`}
@@ -135,7 +133,6 @@ const Features = () => {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

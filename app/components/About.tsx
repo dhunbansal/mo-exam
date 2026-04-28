@@ -37,7 +37,7 @@ const pillars = [
     icon: Users,
     title: "Our Community",
     description:
-      "Over 50,000 students across India trust Online Kaksha for their Banking, SSC, Railway, CDS, and AFCAT preparation.",
+      "Over 50,000 students across Odisha trust MO Exam for their CBSE, OSSC, OPSC, Police and Teaching exam preparation.",
     color: "from-cyan-400 to-blue-500",
     bg: "bg-cyan-400/10",
   },
@@ -193,10 +193,10 @@ const About = () => {
               Exam Prep Platform
             </h2>
             <p className="text-lg text-slate-500 font-medium mb-6 leading-relaxed">
-              Online Kaksha was built with one belief — every Indian aspirant
-              deserves world-class government exam preparation without paying a
-              rupee. We provide meticulously crafted PYQs, daily quizzes, and
-              study notes covering Banking, SSC, Railway, CDS, and AFCAT.
+              MO Exam was built with one belief — every Odisha aspirant deserves
+              world-class exam preparation without paying a rupee. We provide
+              meticulously crafted PYQs, daily quizzes, and study notes covering
+              CBSE, OSSC, OPSC, Police and Teaching exams.
             </p>
             <p className="text-base text-slate-400 mb-8 leading-relaxed">
               Founded by educators who cleared competitive exams themselves, we
@@ -365,7 +365,7 @@ const About = () => {
             What Drives Us
           </h3>
           <p className="text-slate-500 font-medium max-w-xl mx-auto">
-            Four core pillars that define everything we do at Online Kaksha
+            Four core pillars that define everything we do at MO Exam
           </p>
         </motion.div>
 

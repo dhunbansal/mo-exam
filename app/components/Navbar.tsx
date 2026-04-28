@@ -146,14 +146,9 @@ const Navbar = ({ onJoinClick }: { onJoinClick?: () => void }) => {
               whileTap={{ scale: 0.97 }}
               className="flex items-center group"
             >
-              <Image
-                src="/assets/Online Kaksha (Website Logo).png"
-                alt="Online Kaksha Logo"
-                width={180}
-                height={180}
-                className="h-12 w-auto object-contain transition-opacity group-hover:opacity-90"
-                priority
-              />
+              <span className="text-2xl font-black tracking-tight bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-400 text-transparent bg-clip-text transition-opacity group-hover:opacity-90">
+                MO Exam
+              </span>
             </motion.a>
 
             {/* Desktop Navigation */}
